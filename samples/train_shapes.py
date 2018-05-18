@@ -10,7 +10,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 # Root directory of the project
-ROOT_DIR = os.path.abspath("../../Mask_RCNN")
+ROOT_DIR = os.path.abspath("../")
 # TensorFlow实战：Chapter-8上(Mask R-CNN介绍与实现)
 #https://blog.csdn.net/u011974639/article/details/78483779?locationNum=9&fps=1
 # Import Mask RCNN

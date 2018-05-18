@@ -178,7 +178,6 @@ class  ShapesDataset(utils.Dataset):
         shapes = [s for i, s in enumerate(shapes) if i in keep_ixs]
         return bg_color, shapes
 
-
 # Training dataset
 dataset_train  = coco.CocoDataset()
 dataset_train.load_coco("E:/study/ML/tensorflow/cv/dataset/powerline/train", "powerline",year="2018")
